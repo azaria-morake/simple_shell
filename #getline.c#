@@ -7,11 +7,12 @@ int main(void)
 
 	char *line = NULL;
 	size_t length = 0;
-	ssize_t read;
+
+     
 
 	printf("Enter a command:\n");
 
-	read = getline(&line, &length, stdin);
+	ssize_t read = getline(&line, &length, stdin);
 
 	if (read != -1)
 	{
