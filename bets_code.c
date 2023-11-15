@@ -3,7 +3,7 @@
  * @void: Takes no arguments.
  *
  * Description: This is the main function where all the work happens.
- * Return: Returns 0.
+ * Return: Returns 0 for success.
  */
 
 #include <stdio.h>
