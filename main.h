@@ -16,6 +16,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 char *cap_string(char *);
 char *rot13(char *);
-int main(int ac, char **av); /* cmd line args */
+int main(int arg_count, char **arg_val); /* cmd line args. Defined in main.c */
 
 #endif
