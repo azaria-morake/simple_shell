@@ -1,5 +1,5 @@
 /**
- * main - This is the main function.
+ * void- This is the main function.
  * @void: Takes no arguments.
  *
  * Description: This is the main function where all the work happens.
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(void)
+int void(void)
 
 {
 	printf("This is the beginning of simple_shell.\n");
