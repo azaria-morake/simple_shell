@@ -45,9 +45,9 @@ extern char **environ; /*environ*/
  */
 typedef struct str_ls
 {
-  int obj1;
-  char *obj2;
-  struct str_ls *obj3; /*liststr*/
+  int _number;
+  char *_string;
+  struct str_ls *nxt; /*liststr*/
 } list_t;
 
 /**
