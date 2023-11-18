@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int void(void)
+int fake_func(void)
 
 {
 	printf("This is the beginning of simple_shell.\n");
